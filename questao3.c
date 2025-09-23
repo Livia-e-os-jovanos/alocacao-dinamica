@@ -29,10 +29,10 @@ int main () {
         }
     }
 
-    // usuário preenche vetor
+    // i + j preenchendo o vetor
     for (int i = 0; i < m; i++) {
         for(int j = 0; j < n; j++) {
-            scanf("%d", &p[i][j]);
+            p[i][j] = i + j;
         }
     }
 
