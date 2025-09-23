@@ -42,5 +42,7 @@ int main () {
         printf("%d\n", vetor[i]);
     }
 
+    //libera
+    free(vetor);
     return 0;
 }

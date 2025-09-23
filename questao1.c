@@ -24,5 +24,8 @@ int main () {
     for (int i = 0; i < n; i++) {
         printf("%d\n", vetor[i]);
     }
+    // libera
+    free(vetor);
+
     return 0;
 }
